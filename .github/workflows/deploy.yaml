@@ -18,8 +18,8 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t swathikarthik/microdegree:latest .
-        docker push swathikarthik/microdegree:latest
+        docker build -t microdegree:latest .
+        docker push microdegree:latest
 
     - name: Set up Kubeconfig
       run: |
