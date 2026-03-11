@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: swathikarthik/microdegree
+        image: microdegree
         ports:
         - containerPort: 8080
